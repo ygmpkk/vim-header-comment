@@ -1,0 +1,7 @@
+g:header_comment_author	header-comment.txt	/*g:header_comment_author*
+g:header_comment_auto_insert	header-comment.txt	/*g:header_comment_auto_insert*
+g:header_comment_copyright	header-comment.txt	/*g:header_comment_copyright*
+header-comment-vim-contents	header-comment.txt	/*header-comment-vim-contents*
+header-comment-vim-install	header-comment.txt	/*header-comment-vim-install*
+header-comment-vim-introduction	header-comment.txt	/*header-comment-vim-introduction*
+header-comment-vim-variables	header-comment.txt	/*header-comment-vim-variables*

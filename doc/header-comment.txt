@@ -1,0 +1,54 @@
+header-comment.txt  Auto-generate header comment
+
+Version: 0.0.1
+Author: Björn-Egil Dahlberg <https://github.com/psyeugenic/vim-header-comment>
+Modified: Timothy Yeh <https://github.com/ygmpkk/vim-header-comment>
+
+
+==============================================================================
+CONTENTS					*header-comment-vim-contents*
+
+Introduction	|header-comment-introduction|
+Install			|header-comment-install|
+Variables		|header-comment-variables|
+
+==============================================================================
+INTRODUCTION					*header-comment-vim-introduction*
+
+header-comment is a auto-genrate header comments
+
+- Fork from https://github.com/psyeugenic/vim-header-comment
+
+==============================================================================
+Install					        *header-comment-vim-install*
+
+Install the distributed files into Vim runtime directory which is usually
+~/.vim/, or $HOME/vimfiles on Windows.
+
+If you install pathogen that provided from Tim Pope, you should extract the
+file into 'bundle' directory.
+
+for vim-plug
+
+Plug 'ygmpkk/vim-header-comment'
+
+==============================================================================
+Variables					    *header-comment-vim-variables*
+
+g:header_comment_auto_insert        *g:header_comment_auto_insert*
+		If g:header_comment_auto_insert is '1' for auth insert comments to the
+		file when opening new file
+
+		Default value is '1'
+
+g:header_comment_author             *g:header_comment_author*
+		Your name
+
+		Default value is ''
+
+g:header_comment_copyright          *g:header_comment_copyright*
+		Your team's name
+
+		Default value is ''
+
+vim:tw=78:ts=8:ft=help:norl:noet:fen:fdl=0:
